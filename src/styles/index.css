@@ -1,11 +1,44 @@
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+.container .form{
+    width: 58%;
+    margin: auto;
+}
+
+.form ol{
+    padding: 0;
+box-shadow: 1px 1px 9px rgba(0,0,0,0.2), -2px -2px 5px rgba(255,255,255,0.1);
+}
+
+
+.form-control{
+        border-radius: 0;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    padding: 0.7rem;
+    color: rgba(149, 146, 146, 0.982);
+    font-size: 2rem;
+    font-weight: 150;
+}
+span{
+    margin-left: 3rem;
+}
+.input-form{
+    display: flex; 
+}
+input{
+    margin-left: 3rem;
+    width: 100%;
+    border: none;
+}
+input::placeholder{
+    font-weight: 150;
+    color: rgba(149, 146, 146, 0.982);
+}
+
+li:last-child{
+   color: rgba(149, 146, 146, 0.982);
+    font-size: 1rem;
+    font-weight: 100;
+}
