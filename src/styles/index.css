@@ -1,18 +1,24 @@
-
-
-.container .form{
+.container .form {
     width: 58%;
     margin: auto;
 }
-
-.form ol{
+p{
+     color: rgba(149, 146, 146, 0.982);
+    font-size: 4rem;
+    
+    opacity: 2;
+    text-align: center;      /* Centrar texto */
+           font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.form ol {
     padding: 0;
-box-shadow: 1px 1px 9px rgba(0,0,0,0.2), -2px -2px 5px rgba(255,255,255,0.1);
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.2), -2px -2px 5px rgba(255, 255, 255, 0.1);
 }
 
 
-.form-control{
-        border-radius: 0;
+.form-control {
+    border-radius: 0;
     border-bottom: none;
     border-right: none;
     border-left: none;
@@ -21,24 +27,57 @@ box-shadow: 1px 1px 9px rgba(0,0,0,0.2), -2px -2px 5px rgba(255,255,255,0.1);
     font-size: 2rem;
     font-weight: 150;
 }
-span{
+
+span {
     margin-left: 3rem;
 }
-.input-form{
-    display: flex; 
+
+.input-form {
+    display: flex;
 }
-input{
+
+input {
     margin-left: 3rem;
     width: 100%;
     border: none;
 }
-input::placeholder{
-    font-weight: 150;
+
+input:focus {
+    outline: none;
+    transition: 0.1s;
     color: rgba(149, 146, 146, 0.982);
+    font-size: 2rem;
+    font-weight: 150;
 }
 
-li:last-child{
-   color: rgba(149, 146, 146, 0.982);
+input::placeholder {
+    font-weight: 150;
+    color: rgba(149, 146, 146, 0.982);
+
+}
+
+.delete-button {
+    background: white;
+    width: 0;
+    margin-right: 10px;
+    margin-left: -10px;
+    text-align: center;
+    display: inline-block;
+    opacity: 0;
+    transition: 0.3s linear;
+    border: none;
+    color: rgba(149, 146, 146, 0.982);
+    font-size: 1.8rem;
+    font-weight: 150;
+}
+
+li:hover .delete-button {
+    opacity: 2;
+    width: 40px;
+}
+
+li:last-child {
+    color: rgba(149, 146, 146, 0.982);
     font-size: 1rem;
     font-weight: 100;
 }

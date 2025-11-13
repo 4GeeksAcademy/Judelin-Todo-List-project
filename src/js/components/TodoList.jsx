@@ -36,7 +36,7 @@ const ToddoList = () => {
         <div className="container">
             
             <div className="form">
-                <h1> Todos</h1>
+                <p> Todos</p>
 
             <ol>
                 <li className="form-control input-form justify-content-between">
