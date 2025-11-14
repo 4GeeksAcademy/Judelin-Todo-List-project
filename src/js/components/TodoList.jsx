@@ -36,7 +36,7 @@ const ToddoList = () => {
         <div className="container">
             
             <div className="form">
-                <p> Todos</p>
+                <p> todos </p>
 
             <ol>
                 <li className="form-control input-form justify-content-between">
@@ -47,7 +47,7 @@ const ToddoList = () => {
                         onKeyDown={handleTouch}
 
                     />
-                    <button onClick={addTask}>Add</button>
+                    <button className="add-button" onClick={addTask}>Add</button>
                 </li>
                 {
                     tasks.map((task, index) =>

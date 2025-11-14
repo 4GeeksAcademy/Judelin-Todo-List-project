@@ -1,16 +1,26 @@
+.container-pr{
+    height: 100vh;
+}
+.container{
+    background:  rgba(246, 243, 243, 0.638);
+    height: 100vh;
+    margin-top: 1.5rem;
+}
 .container .form {
     width: 58%;
     margin: auto;
 }
-p{
-     color: rgba(149, 146, 146, 0.982);
-    font-size: 4rem;
-    
-    opacity: 2;
-    text-align: center;      /* Centrar texto */
-           font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+
+p {
+    color: rgba(224, 221, 221, 0.638);
+    font-size: 5rem;
+    text-align: center;
+    font-family: "Nixie One", system-ui;
+    font-weight: 200;
+    font-style: normal;
+
 }
+
 .form ol {
     padding: 0;
     box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.2), -2px -2px 5px rgba(255, 255, 255, 0.1);
@@ -48,6 +58,13 @@ input:focus {
     color: rgba(149, 146, 146, 0.982);
     font-size: 2rem;
     font-weight: 150;
+}
+input:hover{
+   background: white;
+}
+
+.add-button {
+    display: none;
 }
 
 input::placeholder {
